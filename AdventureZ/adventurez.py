@@ -78,4 +78,4 @@ class AdventureZ(commands.Cog):
         elif msg == "weary":
             await ctx.send("Attack Resistance: 0.6\nPersuasion Resistance: 0.9")
         else:
-            await ctx.send("You just mentioned a non existent-personality\nPersuasion Resistance: For personalities with spaces in them replace the spaces with a -")
+            await ctx.send("You just mentioned a non existent-personality\nFor personalities with spaces in them replace the spaces with a -")
